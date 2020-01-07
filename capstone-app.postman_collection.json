@@ -1,0 +1,405 @@
+{
+	"info": {
+		"_postman_id": "7a707f9f-cb51-4c35-8e8e-07b567aa9faa",
+		"name": "capstone-app",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Get movies",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6Ik1qVTFRMFkzTURGRU5FVkROemxGUlRKQlJqVkZPVVEwUVVJd05qRkJNRU0wTVRFM016QkNPQSJ9.eyJpc3MiOiJodHRwczovL25rZWNoaS1rZWNoeXkuYXV0aDAuY29tLyIsInN1YiI6ImF1dGgwfDVlMTM5MGY1Y2IzNjBiMTA5ODFkM2ZkZiIsImF1ZCI6Im1vdmllcyIsImlhdCI6MTU3ODM5NjM5MiwiZXhwIjoxNTc4NDgyNzkwLCJhenAiOiJHSDVVTmRlTjlzRW5BRGJ0RHRTOU94Vjg0dVVwMllNZyIsInNjb3BlIjoiIiwicGVybWlzc2lvbnMiOlsiZ2V0OmFjdG9ycyIsImdldDptb3ZpZXMiXX0.j4M1l4njV9NfiNQJxukxU1qHbhvPhaNz_hcz44xHtirlmXmFfa1uFrOOrZ0_fxO7vg_OO_TwOwnQOB1_m1u0fpTtx1vpy_BUb5H_z2NtvpqSKt--X3AwbBrsKULaCRCHAWV19Ifwawc0WJZ0HHteXj9jwHK9uwBBmYMdJZvb7jdK_AErj3VrCpv9WvvTGfUNW2pmZZPrAjfC6jfoTf5dmm0cFll1vZXy25qhtXl0QRkzYO6WtfClg-WNr2fVKfTD4Amuvl0rPT8-RcARAbt2ecwal8iAcprfPTaw2J1OIibQljNt0buqzLh-oKNzMvtsF2zQ2ShqkWfgRbbcf04gZQ",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/movies",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"movies"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get actors",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6Ik1qVTFRMFkzTURGRU5FVkROemxGUlRKQlJqVkZPVVEwUVVJd05qRkJNRU0wTVRFM016QkNPQSJ9.eyJpc3MiOiJodHRwczovL25rZWNoaS1rZWNoeXkuYXV0aDAuY29tLyIsInN1YiI6ImF1dGgwfDVlMTM5MGY1Y2IzNjBiMTA5ODFkM2ZkZiIsImF1ZCI6Im1vdmllcyIsImlhdCI6MTU3ODM5NjM5MiwiZXhwIjoxNTc4NDgyNzkwLCJhenAiOiJHSDVVTmRlTjlzRW5BRGJ0RHRTOU94Vjg0dVVwMllNZyIsInNjb3BlIjoiIiwicGVybWlzc2lvbnMiOlsiZ2V0OmFjdG9ycyIsImdldDptb3ZpZXMiXX0.j4M1l4njV9NfiNQJxukxU1qHbhvPhaNz_hcz44xHtirlmXmFfa1uFrOOrZ0_fxO7vg_OO_TwOwnQOB1_m1u0fpTtx1vpy_BUb5H_z2NtvpqSKt--X3AwbBrsKULaCRCHAWV19Ifwawc0WJZ0HHteXj9jwHK9uwBBmYMdJZvb7jdK_AErj3VrCpv9WvvTGfUNW2pmZZPrAjfC6jfoTf5dmm0cFll1vZXy25qhtXl0QRkzYO6WtfClg-WNr2fVKfTD4Amuvl0rPT8-RcARAbt2ecwal8iAcprfPTaw2J1OIibQljNt0buqzLh-oKNzMvtsF2zQ2ShqkWfgRbbcf04gZQ",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/actors",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"actors"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete actors",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6Ik1qVTFRMFkzTURGRU5FVkROemxGUlRKQlJqVkZPVVEwUVVJd05qRkJNRU0wTVRFM016QkNPQSJ9.eyJpc3MiOiJodHRwczovL25rZWNoaS1rZWNoeXkuYXV0aDAuY29tLyIsInN1YiI6ImF1dGgwfDVlMTM5MGQxY2IzNjBiMTA5ODFkM2ZkYiIsImF1ZCI6Im1vdmllcyIsImlhdCI6MTU3ODM5Njg3MywiZXhwIjoxNTc4NDgzMjcxLCJhenAiOiJHSDVVTmRlTjlzRW5BRGJ0RHRTOU94Vjg0dVVwMllNZyIsInNjb3BlIjoiIiwicGVybWlzc2lvbnMiOlsiZGVsZXRlOmFjdG9ycyIsImdldDphY3RvcnMiLCJnZXQ6bW92aWVzIiwicGF0Y2g6YWN0b3JzIiwicGF0Y2g6bW92aWVzIiwicG9zdDphY3RvcnMiXX0.LY41zsEihsYjpHHhS7tRs1ikEd4MsDL7kSEdZ3IFIcuZ08ZEmEnuspa438VbXFIj9YwDWb8NoUgJeqTF5MOHVXQZIzHc36S9kkvNGcnFpuuB8o82fWQQFWskAFzqEMadO344YT1yH2k2-TqCVY2SwwHGsG4dC8O7yvzYbuL-6LE-TJm9P5uHJTE4dUcCJFkwlfG-EHGZt71w0zAPp69awtSdzKGZeFQYWnYcb3Jkgm_rTsxy6FqQxMzeA84GOdtl5juihjNJG9CzeGsqdgO2pqr_S2O_ETkA4P4kTAyRzv2e3fuuHfgXDoMNWNxPcnwtGELZbHPhEWoVf66xZpmXdw",
+							"type": "string"
+						}
+					]
+				},
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/actors/4",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"actors",
+						"4"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Patch actors",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6Ik1qVTFRMFkzTURGRU5FVkROemxGUlRKQlJqVkZPVVEwUVVJd05qRkJNRU0wTVRFM016QkNPQSJ9.eyJpc3MiOiJodHRwczovL25rZWNoaS1rZWNoeXkuYXV0aDAuY29tLyIsInN1YiI6ImF1dGgwfDVlMTM5MGQxY2IzNjBiMTA5ODFkM2ZkYiIsImF1ZCI6Im1vdmllcyIsImlhdCI6MTU3ODM5Njg3MywiZXhwIjoxNTc4NDgzMjcxLCJhenAiOiJHSDVVTmRlTjlzRW5BRGJ0RHRTOU94Vjg0dVVwMllNZyIsInNjb3BlIjoiIiwicGVybWlzc2lvbnMiOlsiZGVsZXRlOmFjdG9ycyIsImdldDphY3RvcnMiLCJnZXQ6bW92aWVzIiwicGF0Y2g6YWN0b3JzIiwicGF0Y2g6bW92aWVzIiwicG9zdDphY3RvcnMiXX0.LY41zsEihsYjpHHhS7tRs1ikEd4MsDL7kSEdZ3IFIcuZ08ZEmEnuspa438VbXFIj9YwDWb8NoUgJeqTF5MOHVXQZIzHc36S9kkvNGcnFpuuB8o82fWQQFWskAFzqEMadO344YT1yH2k2-TqCVY2SwwHGsG4dC8O7yvzYbuL-6LE-TJm9P5uHJTE4dUcCJFkwlfG-EHGZt71w0zAPp69awtSdzKGZeFQYWnYcb3Jkgm_rTsxy6FqQxMzeA84GOdtl5juihjNJG9CzeGsqdgO2pqr_S2O_ETkA4P4kTAyRzv2e3fuuHfgXDoMNWNxPcnwtGELZbHPhEWoVf66xZpmXdw",
+							"type": "string"
+						}
+					]
+				},
+				"method": "PATCH",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\"name\": \"Ramsey Noah\",\n\"age\": \"43\",\n\"gender\": \"male\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/actors/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"actors",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Patch movies",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6Ik1qVTFRMFkzTURGRU5FVkROemxGUlRKQlJqVkZPVVEwUVVJd05qRkJNRU0wTVRFM016QkNPQSJ9.eyJpc3MiOiJodHRwczovL25rZWNoaS1rZWNoeXkuYXV0aDAuY29tLyIsInN1YiI6ImF1dGgwfDVlMTM5MGQxY2IzNjBiMTA5ODFkM2ZkYiIsImF1ZCI6Im1vdmllcyIsImlhdCI6MTU3ODM5Njg3MywiZXhwIjoxNTc4NDgzMjcxLCJhenAiOiJHSDVVTmRlTjlzRW5BRGJ0RHRTOU94Vjg0dVVwMllNZyIsInNjb3BlIjoiIiwicGVybWlzc2lvbnMiOlsiZGVsZXRlOmFjdG9ycyIsImdldDphY3RvcnMiLCJnZXQ6bW92aWVzIiwicGF0Y2g6YWN0b3JzIiwicGF0Y2g6bW92aWVzIiwicG9zdDphY3RvcnMiXX0.LY41zsEihsYjpHHhS7tRs1ikEd4MsDL7kSEdZ3IFIcuZ08ZEmEnuspa438VbXFIj9YwDWb8NoUgJeqTF5MOHVXQZIzHc36S9kkvNGcnFpuuB8o82fWQQFWskAFzqEMadO344YT1yH2k2-TqCVY2SwwHGsG4dC8O7yvzYbuL-6LE-TJm9P5uHJTE4dUcCJFkwlfG-EHGZt71w0zAPp69awtSdzKGZeFQYWnYcb3Jkgm_rTsxy6FqQxMzeA84GOdtl5juihjNJG9CzeGsqdgO2pqr_S2O_ETkA4P4kTAyRzv2e3fuuHfgXDoMNWNxPcnwtGELZbHPhEWoVf66xZpmXdw",
+							"type": "string"
+						}
+					]
+				},
+				"method": "PATCH",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\"title\": \"Cry for help\",\n\"release_date\": \"2016-08-12\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/movies/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"movies",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Post actors",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6Ik1qVTFRMFkzTURGRU5FVkROemxGUlRKQlJqVkZPVVEwUVVJd05qRkJNRU0wTVRFM016QkNPQSJ9.eyJpc3MiOiJodHRwczovL25rZWNoaS1rZWNoeXkuYXV0aDAuY29tLyIsInN1YiI6ImF1dGgwfDVlMTM5MGQxY2IzNjBiMTA5ODFkM2ZkYiIsImF1ZCI6Im1vdmllcyIsImlhdCI6MTU3ODM5Njg3MywiZXhwIjoxNTc4NDgzMjcxLCJhenAiOiJHSDVVTmRlTjlzRW5BRGJ0RHRTOU94Vjg0dVVwMllNZyIsInNjb3BlIjoiIiwicGVybWlzc2lvbnMiOlsiZGVsZXRlOmFjdG9ycyIsImdldDphY3RvcnMiLCJnZXQ6bW92aWVzIiwicGF0Y2g6YWN0b3JzIiwicGF0Y2g6bW92aWVzIiwicG9zdDphY3RvcnMiXX0.LY41zsEihsYjpHHhS7tRs1ikEd4MsDL7kSEdZ3IFIcuZ08ZEmEnuspa438VbXFIj9YwDWb8NoUgJeqTF5MOHVXQZIzHc36S9kkvNGcnFpuuB8o82fWQQFWskAFzqEMadO344YT1yH2k2-TqCVY2SwwHGsG4dC8O7yvzYbuL-6LE-TJm9P5uHJTE4dUcCJFkwlfG-EHGZt71w0zAPp69awtSdzKGZeFQYWnYcb3Jkgm_rTsxy6FqQxMzeA84GOdtl5juihjNJG9CzeGsqdgO2pqr_S2O_ETkA4P4kTAyRzv2e3fuuHfgXDoMNWNxPcnwtGELZbHPhEWoVf66xZpmXdw",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\"name\": \"Sam Loco\",\n\"age\": \"86\",\n\"gender\": \"male\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/actors",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"actors"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete movies",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6Ik1qVTFRMFkzTURGRU5FVkROemxGUlRKQlJqVkZPVVEwUVVJd05qRkJNRU0wTVRFM016QkNPQSJ9.eyJpc3MiOiJodHRwczovL25rZWNoaS1rZWNoeXkuYXV0aDAuY29tLyIsInN1YiI6ImF1dGgwfDVlMTM5MDUzODQ4M2E1MTBjYjczNjYwNiIsImF1ZCI6Im1vdmllcyIsImlhdCI6MTU3ODM5NzcwNCwiZXhwIjoxNTc4NDg0MTAyLCJhenAiOiJHSDVVTmRlTjlzRW5BRGJ0RHRTOU94Vjg0dVVwMllNZyIsInNjb3BlIjoiIiwicGVybWlzc2lvbnMiOlsiZGVsZXRlOmFjdG9ycyIsImRlbGV0ZTptb3ZpZXMiLCJnZXQ6YWN0b3JzIiwiZ2V0Om1vdmllcyIsInBhdGNoOmFjdG9ycyIsInBhdGNoOm1vdmllcyIsInBvc3Q6YWN0b3JzIiwicG9zdDptb3ZpZXMiXX0.uF7Ay51-qujZ69zB8oWNEpDjDlVPAEQnKqhLwNZmlH2c4Hl5Lgs45-PbSoR6RWCm8Tt1Is0KavJY_eK5riU1xGlX1UycbxUJh7lmkgfmz5AUPZMkP2DwJTToSOXMkhN5RgjAs_n_9D7C_z1s_OIRC5ptYCdwHmbGcqax2okMpe86NC6u1gwF8DzFeI_wWbiigClL5Xm4SjUySsXpvEFpuu75QeBooaQPnGR-0l3N48t9kfMxhMPUP3N2E83DmLvnY9yChXV2aIw9xMoACSQ1rz_COSMbsXy96kdcuAR7yKkQunvbcBRUka5WL0MYBkK7-3pnDX5zm39A6V21-fWSPA",
+							"type": "string"
+						}
+					]
+				},
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/movies/4",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"movies",
+						"4"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Post movies",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6Ik1qVTFRMFkzTURGRU5FVkROemxGUlRKQlJqVkZPVVEwUVVJd05qRkJNRU0wTVRFM016QkNPQSJ9.eyJpc3MiOiJodHRwczovL25rZWNoaS1rZWNoeXkuYXV0aDAuY29tLyIsInN1YiI6ImF1dGgwfDVlMTM5MDUzODQ4M2E1MTBjYjczNjYwNiIsImF1ZCI6Im1vdmllcyIsImlhdCI6MTU3ODM5NzcwNCwiZXhwIjoxNTc4NDg0MTAyLCJhenAiOiJHSDVVTmRlTjlzRW5BRGJ0RHRTOU94Vjg0dVVwMllNZyIsInNjb3BlIjoiIiwicGVybWlzc2lvbnMiOlsiZGVsZXRlOmFjdG9ycyIsImRlbGV0ZTptb3ZpZXMiLCJnZXQ6YWN0b3JzIiwiZ2V0Om1vdmllcyIsInBhdGNoOmFjdG9ycyIsInBhdGNoOm1vdmllcyIsInBvc3Q6YWN0b3JzIiwicG9zdDptb3ZpZXMiXX0.uF7Ay51-qujZ69zB8oWNEpDjDlVPAEQnKqhLwNZmlH2c4Hl5Lgs45-PbSoR6RWCm8Tt1Is0KavJY_eK5riU1xGlX1UycbxUJh7lmkgfmz5AUPZMkP2DwJTToSOXMkhN5RgjAs_n_9D7C_z1s_OIRC5ptYCdwHmbGcqax2okMpe86NC6u1gwF8DzFeI_wWbiigClL5Xm4SjUySsXpvEFpuu75QeBooaQPnGR-0l3N48t9kfMxhMPUP3N2E83DmLvnY9yChXV2aIw9xMoACSQ1rz_COSMbsXy96kdcuAR7yKkQunvbcBRUka5WL0MYBkK7-3pnDX5zm39A6V21-fWSPA",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\"title\": \"Love is blind\",\n\"release_date\": \"2016-08-12\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/movies",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"movies"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get single movie",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6Ik1qVTFRMFkzTURGRU5FVkROemxGUlRKQlJqVkZPVVEwUVVJd05qRkJNRU0wTVRFM016QkNPQSJ9.eyJpc3MiOiJodHRwczovL25rZWNoaS1rZWNoeXkuYXV0aDAuY29tLyIsInN1YiI6ImF1dGgwfDVlMTM5MGY1Y2IzNjBiMTA5ODFkM2ZkZiIsImF1ZCI6Im1vdmllcyIsImlhdCI6MTU3ODM5NjM5MiwiZXhwIjoxNTc4NDgyNzkwLCJhenAiOiJHSDVVTmRlTjlzRW5BRGJ0RHRTOU94Vjg0dVVwMllNZyIsInNjb3BlIjoiIiwicGVybWlzc2lvbnMiOlsiZ2V0OmFjdG9ycyIsImdldDptb3ZpZXMiXX0.j4M1l4njV9NfiNQJxukxU1qHbhvPhaNz_hcz44xHtirlmXmFfa1uFrOOrZ0_fxO7vg_OO_TwOwnQOB1_m1u0fpTtx1vpy_BUb5H_z2NtvpqSKt--X3AwbBrsKULaCRCHAWV19Ifwawc0WJZ0HHteXj9jwHK9uwBBmYMdJZvb7jdK_AErj3VrCpv9WvvTGfUNW2pmZZPrAjfC6jfoTf5dmm0cFll1vZXy25qhtXl0QRkzYO6WtfClg-WNr2fVKfTD4Amuvl0rPT8-RcARAbt2ecwal8iAcprfPTaw2J1OIibQljNt0buqzLh-oKNzMvtsF2zQ2ShqkWfgRbbcf04gZQ",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/movies/2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"movies",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get single actor",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6Ik1qVTFRMFkzTURGRU5FVkROemxGUlRKQlJqVkZPVVEwUVVJd05qRkJNRU0wTVRFM016QkNPQSJ9.eyJpc3MiOiJodHRwczovL25rZWNoaS1rZWNoeXkuYXV0aDAuY29tLyIsInN1YiI6ImF1dGgwfDVlMTM5MGY1Y2IzNjBiMTA5ODFkM2ZkZiIsImF1ZCI6Im1vdmllcyIsImlhdCI6MTU3ODM5NjM5MiwiZXhwIjoxNTc4NDgyNzkwLCJhenAiOiJHSDVVTmRlTjlzRW5BRGJ0RHRTOU94Vjg0dVVwMllNZyIsInNjb3BlIjoiIiwicGVybWlzc2lvbnMiOlsiZ2V0OmFjdG9ycyIsImdldDptb3ZpZXMiXX0.j4M1l4njV9NfiNQJxukxU1qHbhvPhaNz_hcz44xHtirlmXmFfa1uFrOOrZ0_fxO7vg_OO_TwOwnQOB1_m1u0fpTtx1vpy_BUb5H_z2NtvpqSKt--X3AwbBrsKULaCRCHAWV19Ifwawc0WJZ0HHteXj9jwHK9uwBBmYMdJZvb7jdK_AErj3VrCpv9WvvTGfUNW2pmZZPrAjfC6jfoTf5dmm0cFll1vZXy25qhtXl0QRkzYO6WtfClg-WNr2fVKfTD4Amuvl0rPT8-RcARAbt2ecwal8iAcprfPTaw2J1OIibQljNt0buqzLh-oKNzMvtsF2zQ2ShqkWfgRbbcf04gZQ",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/actors/2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"actors",
+						"2"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"auth": {
+		"type": "bearer",
+		"bearer": [
+			{
+				"key": "token",
+				"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6Ik1qVTFRMFkzTURGRU5FVkROemxGUlRKQlJqVkZPVVEwUVVJd05qRkJNRU0wTVRFM016QkNPQSJ9.eyJpc3MiOiJodHRwczovL25rZWNoaS1rZWNoeXkuYXV0aDAuY29tLyIsInN1YiI6ImF1dGgwfDVlMTM5MDUzODQ4M2E1MTBjYjczNjYwNiIsImF1ZCI6Im1vdmllcyIsImlhdCI6MTU3ODM5NzcwNCwiZXhwIjoxNTc4NDg0MTAyLCJhenAiOiJHSDVVTmRlTjlzRW5BRGJ0RHRTOU94Vjg0dVVwMllNZyIsInNjb3BlIjoiIiwicGVybWlzc2lvbnMiOlsiZGVsZXRlOmFjdG9ycyIsImRlbGV0ZTptb3ZpZXMiLCJnZXQ6YWN0b3JzIiwiZ2V0Om1vdmllcyIsInBhdGNoOmFjdG9ycyIsInBhdGNoOm1vdmllcyIsInBvc3Q6YWN0b3JzIiwicG9zdDptb3ZpZXMiXX0.uF7Ay51-qujZ69zB8oWNEpDjDlVPAEQnKqhLwNZmlH2c4Hl5Lgs45-PbSoR6RWCm8Tt1Is0KavJY_eK5riU1xGlX1UycbxUJh7lmkgfmz5AUPZMkP2DwJTToSOXMkhN5RgjAs_n_9D7C_z1s_OIRC5ptYCdwHmbGcqax2okMpe86NC6u1gwF8DzFeI_wWbiigClL5Xm4SjUySsXpvEFpuu75QeBooaQPnGR-0l3N48t9kfMxhMPUP3N2E83DmLvnY9yChXV2aIw9xMoACSQ1rz_COSMbsXy96kdcuAR7yKkQunvbcBRUka5WL0MYBkK7-3pnDX5zm39A6V21-fWSPA",
+				"type": "string"
+			}
+		]
+	},
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"id": "7aa61038-014d-4276-9127-82f850187b49",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"id": "db8d8ed8-a24b-4fa1-878f-1f737a1303de",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"protocolProfileBehavior": {}
+}

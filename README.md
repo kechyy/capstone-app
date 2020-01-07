@@ -64,7 +64,7 @@ The Casting Agency models a company that is responsible for creating movies and 
 
 ## ENDPOINTS
 
-### Use This [Heroku Base Url]() to access all the endpoints
+### Use This [Heroku Base Url](https://nkechi-capstone.herokuapp.com) to access all the endpoints
 
  | Method | ROUTE | PERMISSION      | Role | Body | Description |
  | ------ | ----------- | -------------- | ---- |------------|-----|
@@ -93,4 +93,4 @@ The Casting Agency models a company that is responsible for creating movies and 
 
 
 ## Authors
-#### Nkechi Ogbonna - [Capstone]()
+#### Nkechi Ogbonna - [Capstone](https://nkechi-capstone.herokuapp.com)
